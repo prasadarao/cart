@@ -1,0 +1,103 @@
+.payments {
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid #CCCCCC;
+  padding: 5px;
+}
+
+.wallet {
+  background-color: #f5f8f9;
+  padding: 5px;
+}
+
+.wbalance {
+  text-align: right;
+  font-weight: bold;
+  padding: 10px 0; 
+}
+
+.wallet .use-wallet {
+  display: none;
+}
+
+.payment-options {
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.payment-options .poption {
+  float: left;
+  padding: 5px 10px; 
+}
+
+.poption .type {
+  font-size: 15px;
+  margin-bottom: 10px;
+  cursor: pointer; 
+  border-bottom: 2px solid #FFFFFF;
+}
+
+.options.current {
+  display: block;
+}
+
+.poption.current .type {
+  border-bottom: 2px solid #3b5896;
+}
+
+.options {
+  display: none;
+}
+
+.options li {
+  padding: 5px;
+}
+
+#wallet-payment {
+  margin: 30px 0;
+  color: #545454;
+  font-size: 13px; 
+}
+
+#wallet-payment .paybox {
+  border: 1px solid #CCCCCC;
+  padding: 10px;
+  background-color: #FFF;
+  width: 20%;
+  height: 40px;
+  border-radius: 3px; 
+}
+
+#wallet-payment .substract {
+  width: 5%;
+  line-height: 60px;
+  font-size: 36px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#wallet-payment .amt {
+  display: inline-block;
+  width: 100px;
+  color: #000000;
+  font-size: 16px;
+}
+
+#wallet-payment .button {
+  margin-top: 13px;
+  margin-left: 2%;
+}
+
+.listoptions {
+  position: relative;
+}
+
+.layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.75;
+  background-color: #FFFFFF;
+}

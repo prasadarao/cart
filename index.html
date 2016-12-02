@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Payment Selection Page</title>
+        <link rel='stylesheet' href="/assets/css/base.css"/>
+        <link rel='stylesheet' href="/assets/css/payments.css"/>
+        <script src='/assets/js/payments.js' type='text/javascript'></script> 
+    </head>
+    <body>
+        <header>
+          <h1>Payment Selection</h1>
+        </header>
+        <div class='container'>
+            <div class='payments module'>
+                <div class='wbalance'>Balance Amount: <span id='wallet-amount'></span></div>
+                <div class='wallet clearfix'>
+                    <input type='checkbox' name='woption' id='woption' value='wallet' class='fleft'/>
+                    <span class='balance-text'>You have sufficient balance in your wallet. Pay using Wallet Amount</span>
+                    <span class='use-wallet clearfix'><span class='fleft'>Use Wallet Amount </span><span id='use-wallet-amount' class='fleft'></span></span>
+                    <div id='wallet-payment' class='clearfix'>
+                      <div class='paybox fleft' id='box1'>
+                        <span id='payment-bal-text'>Wallet Balance:</span>
+                        <span id='payment-bal' class='amt'></span>
+                      </div>
+                      <div class='substract fleft'>-</div>
+                      <div class='paybox fleft' id='box2'>
+                        <span id='cartamt-text'>cart Amount:</span>
+                        <span id='cartamt' class='amt'></span>
+                      </div>
+                      <div class='substract fleft'>=</div>
+                      <div class='paybox fleft'><span id='remaining-text'>Remaining Amount:</span> <span id='remaining' class='amt'></span></div>
+                      <input type='button' name='paynow' value='Pay Now' id='walletbtn' class='button'/>
+                    </div>
+                </div>
+                <div class='message'></div>
+                <div class='listoptions'>
+                <ul class='payment-options clearfix'>
+                  <li class='poption current' data-id='dc'>
+                    <div class='type'>Debit card</div>
+                  </li>
+                  <li class='poption' data-id='nb'>
+                    <div class='type'>Net Banking</div>
+                  </li>
+                  <li class='poption' data-id='cc'>
+                    <div class='type'>Credit Card</div>
+                  </li>
+                </ul>
+                <div class='diaplay-options'>
+                  <ul class='options current' id='dc'>
+                    <li><input type='radio' name='debit' class='option' value='sbi' />State bank of india</li>
+                    <li><input type='radio' name='debit' class='option' value='hdfc' />HdFC</li>
+                    <li><input type='radio' name='debit' class='option' value='axis' />Axis Bank</li>
+                  </ul>
+                  <ul class='options' id='nb'>
+                    <li><input type='radio' name='netbank' class='option' value='sbi' />State bank of india</li>
+                  </ul>
+                  <ul class='options' id='cc'>
+                    <li><input type='radio' name='credit' class='option' value='sbi' />State bank of india</li>
+                    <li><input type='radio' name='credit' class='option' value='hdfc' />HdFC</li>
+                    <li><input type='radio' name='credit' class='option' value='axis' />Axis Bank</li>
+                  </ul>
+                  <div class='optionpay'>
+                    <input type='button' name='optionpay' value='Pay Now' id='optionpay' class='button' />
+                  </div> 
+                </div>
+                <div id='overlay'></div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

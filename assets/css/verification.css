@@ -1,0 +1,54 @@
+.verification {
+  width: 335px;
+  font-size: 11px;
+  font-family: Arial,Helvetica,sans-serif;
+  margin-left: 20px;  
+}
+
+.verification .highlight {
+  color: green;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.merchant-info {
+  color: #000000;  
+}
+
+.merchant-info .img {
+  float: left;
+  width: 100px;
+}
+
+.merchant-info .merchant {
+  
+}
+
+.merchant .info,
+.resend,
+.notice {
+  margin-bottom: 10px;
+}
+
+.resend,
+.notice {
+  color: #0075B0;
+}
+
+.merchant .info .label {
+  display: inline-block;
+  width: 60px;
+}
+
+.resendbtn {
+  background-color: #0075B0;
+  color: #FFFFFF;
+  height: 22px;
+  font-weight: bold;
+  font-size: 11px;
+  padding: 2px;
+}
+
+.otpmsg {
+  color: #BB0000;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href="/assets/css/base.css"/>
+    <link rel='stylesheet' href='/assets/css/verification.css' />
+    
+  </head>
+  <body>
+    <div class='verification'>
+      <img src='https://cardsecurity.standardchartered.com/acspage/en_US_SCB_IndiaOTP_Visa/images/visa_logo.gif'/>
+      <div class='highlight'>For enhanced security, you are now required to enter a One-Time Password(OTP) in order to proceed with your 3-D Secure internet transaction. An SMS with the OTP has been sent to your mobile phone number. Please wait a moment.</div>
+      <div class='merchant-info clearfix'>
+        <div class='img'>
+          <img src='https://cardsecurity.standardchartered.com/acspage/en_US_SCB_IndiaOTP_Visa/images/alp_sms.jpg' />
+        </div>
+        <div class='merchant'>
+          <div class='info'>
+            <span class='label'>Merchant:</span>
+            <span class='text'>Mobile Merchant</span>
+          </div>
+          <div class='info'>
+            <span class='label'>Amount:</span>
+            <span class='text bold'>INR 900</span>
+          </div>
+          <div class='info'>
+            <span class='label'>Date:</span>
+            <span class='text'>02-Dec-2016</span>
+          </div>
+          <div class='info'>
+            <span class='label'>OTP:</span>
+            <span class='text'>
+              <input type='text' name='otp' value='' class='otp'/>
+            </span>
+          </div>
+          <div class='info'>
+            <input type='button' name='submit' value='Submit' class='submit' />
+          </div>
+        </div>
+      </div>
+      <div class='resend'>If you do not receive your OTP within 120 seconds, you may request for another one <input type='button' name='resend' value='Resend OTP' class='resendbtn'/></div>
+
+      <div class='notice'>In case you don't receive your OTP after multiple attempts, please call customer care helpline to ensure that your mobile number is registered with the Bank. 
+      </div>
+
+    </div>
+    <script type='text/javascript' src='/assets/js/verification.js' ></script>
+  </body>
+</html>
